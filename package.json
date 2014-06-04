@@ -1,6 +1,6 @@
 {
   "name": "mocha-perf-reporter",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Mocha reporter for performance testing",
   "main": "index.js",
   "scripts": {
