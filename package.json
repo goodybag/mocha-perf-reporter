@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/goodybag/mocha-perf-reporter/issues"
   },
+  "peerDependencies": {
+    "mocha": "*"
+  },
   "homepage": "https://github.com/goodybag/mocha-perf-reporter"
 }
