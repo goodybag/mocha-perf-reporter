@@ -23,5 +23,8 @@
   "peerDependencies": {
     "mocha": "*"
   },
-  "homepage": "https://github.com/goodybag/mocha-perf-reporter"
+  "homepage": "https://github.com/goodybag/mocha-perf-reporter",
+  "dependencies": {
+    "cli-table": "^0.3.0"
+  }
 }
