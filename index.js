@@ -91,7 +91,7 @@ function Perf( runner ){
           testName + ( !error ? '' : ( '\n' + error ) )
         , (test.expected || 0) + 'ms'
         , error ? color( 'error', '✖' ) : test.duration + 'ms'
-        , error ? color( 'error', '✖' ) : color( colorType, diff.toFixed(2) + '%' )
+        , error ? color( 'error', '✖' ) : color( colorType, ( diff > 0 ? '+' : '') + diff.toFixed(2) + '%' )
         ]);
       });
 
